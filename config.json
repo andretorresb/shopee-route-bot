@@ -1,0 +1,25 @@
+{
+  "shopeeId": "3679118",
+  "evolution": {
+    "instance": "motorista"
+  },
+  "groups": [
+    {
+      "id": "120363000000000000@g.us",
+      "name": "Grupo de rotas",
+      "responsible": "5565999999999"
+    }
+  ],
+  "acceptedNeighborhoods": [
+    "Cristo Rei",
+    "Paiaguás",
+    "Jardim Vitória"
+  ],
+  "keywords": [
+    "disponível",
+    "disponivel",
+    "- 02"
+  ],
+  "enabled": false,
+  "simulation": true
+}

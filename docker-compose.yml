@@ -1,0 +1,11 @@
+services:
+  shopee-route-bot:
+    build: .
+    container_name: shopee-route-bot
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./config.json:/app/config.json:ro
+      - ./data:/app/data
+    ports:
+      - "${PORT:-3000}:3000"
